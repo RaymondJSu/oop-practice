@@ -10,3 +10,6 @@ Jenny.deposit(505)
 
 Dave.withdraw(1001)
 Dave.withdraw(200)
+
+Dave.transfer(1000, Jenny)
+Dave.transfer(50, Jenny)

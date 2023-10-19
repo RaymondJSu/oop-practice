@@ -12,7 +12,7 @@ class BankAccount:
 
     def deposit(self, amount):
         self.balance = self.balance + amount
-        print(f"\n Deposite complete.")
+        print(f"\nDeposite complete.")
         self.getBalance()
 
     def viableTransaction(self, amount):
@@ -31,3 +31,13 @@ class BankAccount:
             self.getBalance()
         except BalanceException as error:
             print(f"\nWithdraw interupted. {error}")
+
+    def transfer(self, amount, account):
+        try:
+            print('\n********\n\nBeginning Transter')
+            self.viableTransaction(amount)
+            self.withdraw(amount)
+            account.deposit(amount)
+            print('\nTransfer complete.\n\n********')
+        except BalanceException as error:
+            print(f'Transfer interrupted. {error}')
