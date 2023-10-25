@@ -4,4 +4,5 @@ This is a space where I experiment with OOP concepts in Python. Please note that
 
 ---
 Youtube tutorial: [Python OOP (Object-Oriented Programming) Project for Beginners](https://youtu.be/PMFd95RgIwE?si=dsQVwFRslF0-Du7I)
-\ncreator: Dave Gray
+
+creator: Dave Gray
